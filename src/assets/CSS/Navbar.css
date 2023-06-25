@@ -1,10 +1,11 @@
 .nav-container{
-    position: absolute;
+    position: sticky;
     z-index: 10;
     height: 8vh;
     background-color: black;
     width: 100%;
     min-height: 4em;
+    backdrop-filter: blur(10px);
 }
 
 /* Navigation */
