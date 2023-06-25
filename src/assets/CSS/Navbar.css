@@ -1,0 +1,41 @@
+.nav-container{
+    position: absolute;
+    z-index: 10;
+    height: 8vh;
+    background-color: black;
+    width: 100%;
+    min-height: 4em;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav a {
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    line-height: 1.25em;
+    letter-spacing: 0.2px;
+    color: #666868;
+    text-decoration: none;
+    margin-right: 3em;
+    align-self: center;
+    transition: all 1s ease;
+}
+
+nav a:first-child{
+    margin-left: 0em;
+}
+nav a:last-child{
+    margin-right: 3em;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color:white;
+}
