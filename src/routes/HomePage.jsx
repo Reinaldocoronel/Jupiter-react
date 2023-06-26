@@ -8,14 +8,15 @@ export default function HomePage(){
   return (
     <>
       <div className="home-page-Grid">
-         <div className="background-world"> 
-         <img src="../public/Images/Jupiter-planet-background.png"/>
-         </div>
         <div className="hero-third-section">
         <h1>Optimize your Vacancy-to-Placement Pipeline</h1>
         <p>The Human-First Approach to Digital Transformation</p>
-        <Link to="" class="ButtonLarge">Let’s Meet!</Link>
+        <Link to="" class="ButtonLarge" id="desktop-only">Let’s Meet!</Link>
         </div>
+         <div className="background-world"> 
+         <img src="../public/Images/Jupiter-planet-background.png"/>
+         <Link to="" class="ButtonLarge" id="mobile-only">Let’s Meet!</Link>
+         </div>
       </div>
       <Navbar/>
     </>

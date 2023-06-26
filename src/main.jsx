@@ -17,6 +17,7 @@ const router = createBrowserRouter([
     element: <HomePage />,
     errorElement: <ErrorPage />,
   },
+  /*
   {
     path: "/Methods",
     element: <Methods />,
@@ -46,7 +47,7 @@ const router = createBrowserRouter([
     path: "/Team",
     element: <Team />,
     errorElement: <ErrorPage />,
-  },
+  }, */
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
