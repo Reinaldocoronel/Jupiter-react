@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../assets/css/Navbar.css";
+import "../assets/CSS/Navbar.css";
 import { FaBars } from "react-icons/fa";
 import {IoMdClose} from "react-icons/io";
 import { Link } from "react-router-dom";

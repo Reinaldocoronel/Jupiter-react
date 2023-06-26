@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import HomePage from './routes/Homepage.jsx'
+import HomePage from './routes/HomePage.jsx'
 import Methods from './routes/Methods.jsx'
 import Services from './routes/Services.jsx'
 import Bootcamp from './routes/Bootcamp.jsx'
