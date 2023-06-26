@@ -74,8 +74,6 @@ body{
     width: 20VW;
     margin-top: 8vh;
     margin-bottom: 5rem;
-    padding-left: 24px; 
-    padding-right: 24px; 
     padding-top: 19px; 
     padding-bottom: 19px; 
     background: #8700FF; 
@@ -148,5 +146,7 @@ body{
     #mobile-only{
         display: flex;
         margin-bottom: 0rem;
+        width: 50vw;
+        font-size: 4vw;
     }
 }

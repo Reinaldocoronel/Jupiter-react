@@ -9,9 +9,8 @@ export default function Navbar(){
     <>
         <div className="nav-container">
                 <nav>
-                    <Link to="/"><img src="../public/Images/Jupiter-Logo-small.png" alt="Jupiter SaaS Consulting"/></Link>
+                    <Link to="/"><img src="Images/Jupiter-Logo-small.png" alt="Jupiter SaaS Consulting"/></Link>
                     <h1>Our full website will launch soon! <p> Book a meeting to learn more</p></h1>
-
                     {/*
                     <Link to="/Methods">Methods</Link>
                     <Link to="/ChatGPT_Bard">ChatGPT & Bard</Link>

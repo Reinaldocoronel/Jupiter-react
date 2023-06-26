@@ -11,14 +11,15 @@ export default function HomePage(){
         <div className="hero-third-section">
         <h1>Optimize your Vacancy-to-Placement Pipeline</h1>
         <p>The Human-First Approach to Digital Transformation</p>
-        <Link to="" class="ButtonLarge" id="desktop-only">Let’s Meet!</Link>
+        <Link to="https://www.calendly.com/jupitersaasconsulting" class="ButtonLarge" id="desktop-only">Let’s Meet!</Link>
         </div>
          <div className="background-world"> 
-         <img src="../public/Images/Jupiter-planet-background.png"/>
-         <Link to="" class="ButtonLarge" id="mobile-only">Let’s Meet!</Link>
+         <img src="Images/Jupiter-planet-background.png"/>
+         <Link to="https://www.calendly.com/jupitersaasconsulting" class="ButtonLarge" id="mobile-only">Let’s Meet!</Link>
          </div>
       </div>
       <Navbar/>
     </>
   );
 };
+TexASS1234!@#$
