@@ -10,14 +10,12 @@ export default function Navbar(){
         <div className="nav-container">
                 <nav>
                     <Link to="/"><img src="Images/Jupiter-Logo-small.png" alt="Jupiter SaaS Consulting"/></Link>
-                    <h1>Our full website will launch soon! <p> Book a meeting to learn more</p></h1>
-                    {/*
                     <Link to="/Methods">Methods</Link>
                     <Link to="/ChatGPT_Bard">ChatGPT & Bard</Link>
                     <Link to="/Integrations">Integrations</Link>
                     <Link to="/Services">Services</Link>
                     <Link to="/Bootcamp">Bootcamp</Link>
-                    <Link to="/Team">Team</Link> */}
+                    <Link to="/Team">Team</Link> 
                 </nav>
         </div>
     </>
